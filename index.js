@@ -1,9 +1,9 @@
 // code solution here
 'use strict';
 class President {
-  constructor(name, politcalParty, yearsInOffice, homeState){
+  constructor(name, politicalParty, yearsInOffice, homeState){
     this.name = name;
-    this.politcalParty = politcalParty;
+    this.politicalParty = politicalParty;
     this.yearsInOffice = yearsInOffice;
     this.homeState = homeState;
   }
@@ -16,11 +16,11 @@ class President {
     return "You can do that!";
   }
   doCharity(){
-    return "I like to help people";
+    return "I like to help people.";
   }
 
   conductPressInterview(){
-    return "I am proud to be an american";
+    return "I am proud to be an American.";
   }
 
   sayHi() {
